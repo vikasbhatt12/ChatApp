@@ -17,7 +17,7 @@ app.get('/about', (request, response) =>  {
 
 const io = new Server(server, {
   cors: {
-    origin: "https://chat-app-client-gold.vercel.app/",
+    origin: "https://chat-app-client-gold.vercel.app",
     methods: ["GET", "POST"],
   },
 });
